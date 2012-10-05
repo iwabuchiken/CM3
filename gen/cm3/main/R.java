@@ -10,26 +10,69 @@ package cm3.main;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int black=0x7f040001;
+        public static final int blue1=0x7f040002;
+        public static final int darkgreen=0x7f040003;
+        public static final int darkolivegreen4=0x7f040005;
+        public static final int gold2=0x7f040007;
+        public static final int green4=0x7f040004;
+        public static final int purple4=0x7f040006;
+        public static final int red=0x7f040008;
+        /**  Source=http://www.somacon.com/p142.php 
+ main.xml 
+         */
+        public static final int white=0x7f040000;
+        public static final int yello=0x7f040009;
+    }
     public static final class drawable {
         public static final int ic_action_search=0x7f020000;
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int menu_settings=0x7f070000;
+        public static final int menu_settings=0x7f080000;
     }
     public static final class layout {
         public static final int activity_main_actv=0x7f030000;
     }
     public static final class menu {
-        public static final int activity_main_actv=0x7f060000;
+        public static final int activity_main_actv=0x7f070000;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int hello_world=0x7f040001;
-        public static final int menu_settings=0x7f040002;
-        public static final int title_activity_main_actv=0x7f040003;
+        public static final int app_name=0x7f050000;
+        public static final int dlg_item_menu_item_add_memo=0x7f05000f;
+        public static final int dlg_item_menu_item_delete=0x7f050011;
+        public static final int dlg_item_menu_item_move=0x7f050010;
+        /**  dlg_item_menu.xml 
+         */
+        public static final int dlg_item_menu_item_title=0x7f05000e;
+        /**  dlg_register_patterns.xml 
+         */
+        public static final int dlg_register_patterns_title=0x7f050012;
+        public static final int dlg_register_patterns_tv_table_name=0x7f050014;
+        public static final int dlg_register_patterns_tv_word=0x7f050013;
+        public static final int generic_bt_cancel=0x7f05000a;
+        /**  Generic items 
+         */
+        public static final int generic_bt_ok=0x7f050009;
+        public static final int generic_tv_confirm=0x7f05000b;
+        public static final int generic_tv_menu=0x7f05000c;
+        public static final int generic_tv_register=0x7f05000d;
+        public static final int hello_world=0x7f050001;
+        /**  internet_actv.xml 
+         */
+        public static final int internet_actv_tv_post=0x7f050015;
+        public static final int main_opt_menu_add_patterns=0x7f050006;
+        public static final int main_opt_menu_db_activity=0x7f050005;
+        public static final int main_opt_menu_folder_trees=0x7f050007;
+        public static final int main_opt_menu_internet=0x7f050008;
+        /**  main_menu.xml 
+         */
+        public static final int main_opt_menu_refresh_db=0x7f050004;
+        public static final int menu_settings=0x7f050002;
+        public static final int title_activity_main_actv=0x7f050003;
     }
     public static final class style {
-        public static final int AppTheme=0x7f050000;
+        public static final int AppTheme=0x7f060000;
     }
 }
