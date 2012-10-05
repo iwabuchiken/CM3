@@ -16,7 +16,7 @@ g init
 g a .
 gitk
 
-git remote add origin git@github.com:iwabuchiken/CR4.git
+git remote add origin git@github.com:iwabuchiken/CM3.git
 
 git log --grep=B4 -3
 git log --grep=B5 -3
